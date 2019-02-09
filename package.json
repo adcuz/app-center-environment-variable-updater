@@ -1,8 +1,29 @@
 {
+  "name": "app-center-environment-variable-updater",
+  "version": "1.0.0",
+  "description": "Bulk update the environment variables for an MS App Center branch build configuration.",
   "dependencies": {
     "axios": "^0.18.0",
     "commander": "^2.19.0",
     "dotenv": "^6.2.0",
     "inquirer": "^6.2.2"
-  }
+  },
+  "bin": {
+    "app-center-environment-variable-updater": "./index.js"
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adcuz/app-center-environment-variable-updater.git"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/adcuz/app-center-environment-variable-updater/issues"
+  },
+  "homepage": "https://github.com/adcuz/app-center-environment-variable-updater#readme"
 }

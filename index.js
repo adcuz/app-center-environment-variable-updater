@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const setup = require("./prompt").default;
 const configureApi = require("./api").default;
 
