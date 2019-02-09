@@ -16,29 +16,21 @@ This uses the official [App Center API Service](https://docs.microsoft.com/en-gb
 
 This is just a Node script, so you'll need `node` installed.
 
-### 1 - Clone
+### 1 - Install
 
 ```
-git clone xxx@xxx.xxx/xxx.git
+npm install -g app-center-environment-variable-updater
 ```
 
-### 2 - Install Dependencies
+### 2 - Run
 
 ```
-yarn install
-OR
-npm install
-```
-
-### 3 - Run the script
-
-```
-node ./index.js
+app-center-environment-variable-updater
 ```
 
 ## Unattended / CI Mode
 
-You can fully automate this script by setting the relevant variables in your environment, or adding a .env file in the root. See the `.env.example` file, rename to `.env` to try it out.
+You can fully automate this script by setting the relevant variables in your environment.
 
 ### MS_AS_ENV
 
