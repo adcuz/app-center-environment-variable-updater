@@ -3,7 +3,7 @@ const configureApi = require("./api").default;
 
 setup()
   .then(async conf => {
-    console.log(JSON.stringify(conf, null, "  "));
+    console.log("Config: ", JSON.stringify(conf, null, "  "));
 
     const api = configureApi(conf.api_key, conf.owner_name, conf.app_name);
 
