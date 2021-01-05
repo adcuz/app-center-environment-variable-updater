@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Bulk update the environment variables for an MS App Center branch build configuration.",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "commander": "^2.19.0",
     "dotenv": "^6.2.0",
     "inquirer": "^6.2.2"
